@@ -1,0 +1,50 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "seguburger.moc3",
+		"Textures": [
+			"seguburger.2048/texture_00.png"
+		],
+		"Physics": "seguburger.physics3.json",
+		"DisplayInfo": "seguburger.cdi3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+	  "TapFace": [
+        {
+          "File": "motions/chewing.motion3.json"
+        }
+	],
+      "TapBody": [
+        {
+          "File": "motions/pushing.motion3.json"
+        }
+	]
+}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Body"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "Face"
+		}
+	]
+}
